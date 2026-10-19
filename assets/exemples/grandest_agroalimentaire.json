@@ -1,0 +1,41 @@
+{
+  "nom": "Agroalimentaire (hors boissons) du Grand Est, 3 salariés et plus",
+  "zone": {
+    "departements": [
+      "08",
+      "10",
+      "51",
+      "52",
+      "54",
+      "55",
+      "57",
+      "67",
+      "68",
+      "88"
+    ]
+  },
+  "naf_inclus": [
+    "@agriculture_hors_vigne",
+    "@industrie_alimentaire"
+  ],
+  "effectifs": [
+    "02",
+    "03",
+    "11",
+    "12",
+    "21",
+    "22",
+    "31",
+    "32",
+    "41",
+    "42",
+    "51",
+    "52",
+    "53"
+  ],
+  "groupes_naf": {
+    "Agriculture": "@agriculture_hors_vigne",
+    "Industrie alimentaire": "@industrie_alimentaire"
+  },
+  "sortie": "data/grandest_agro_entreprises.csv"
+}

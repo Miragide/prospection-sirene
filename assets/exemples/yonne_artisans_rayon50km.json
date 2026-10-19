@@ -1,0 +1,22 @@
+{
+  "nom": "Artisans dans un rayon de 50 km autour de Cheny (89400)",
+  "zone": {
+    "rayon": {
+      "centre": "89400",
+      "km": 50
+    }
+  },
+  "naf_inclus": [
+    "@artisanat_batiment",
+    "@artisanat_fabrication_reparation",
+    "@artisanat_alimentaire",
+    "@artisanat_services"
+  ],
+  "groupes_naf": {
+    "Bâtiment": "@artisanat_batiment",
+    "Fabrication / réparation": "@artisanat_fabrication_reparation",
+    "Alimentaire artisanal": "@artisanat_alimentaire",
+    "Services artisanaux": "@artisanat_services"
+  },
+  "sortie": "data/yonne_artisans_entreprises.csv"
+}

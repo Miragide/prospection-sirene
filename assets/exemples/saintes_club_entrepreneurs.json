@@ -1,0 +1,21 @@
+{
+  "nom": "Club d'entrepreneurs de Saintes — toutes TPE/PME de la commune",
+  "zone": {
+    "communes_insee": [
+      "17415"
+    ]
+  },
+  "naf_exclus": [
+    "@non_entreprises"
+  ],
+  "effectifs": [
+    "NN",
+    "00",
+    "01",
+    "02",
+    "03",
+    "11",
+    "12"
+  ],
+  "sortie": "data/saintes_entreprises_club.csv"
+}
